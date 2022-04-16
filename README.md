@@ -3,7 +3,7 @@ Very initial prototype font for [Cak/Sak/Thet/Asak language](https://en.wikipedi
 
 This script is used by the ~3000 Cak or Chak (চাক) people of Bangladesh's Chittagong Hill Tracts, and the ~1000 Sak (သက်) people of Burma's Rakhaing State. Burmese pronunciation of သက် is [θet] and can be romanised as ‘Thet’. The people call themselves ‘Asak’. 
 
-[Sangdong (2012)](http://arrow.latrobe.edu.au:8080/vital/access/manager/Repository/latrobe:37989), quoting Maggard (2007) notes the Chak people are distinct from the Chakma, whereas he recognises a close linguistic connection between Sak/Chak and the Kadu (ကတူ) language (ISO 639:3 zkd) spoken by 40,000 people in Burma’s Sagaing Region. There is also evidence of another script for Kadu.
+[Sangdong (2012)](http://arrow.latrobe.edu.au:8080/vital/access/manager/Repository/latrobe:37989), quoting Maggard (2007) notes the Chak people are distinct from the Chakma, whereas he recognises a close linguistic connection between Sak/Chak and the Kadu (ကတူ) language (ISO 639:3 zkd) spoken by 40,000 people in Burma’s Sagaing Region. There is also [evidence](https://www.facebook.com/%E1%80%80%E1%80%90%E1%80%B0%E1%80%B8%E1%80%90%E1%80%AD%E1%80%AF%E1%80%84%E1%80%B9%E1%80%B8%E1%80%9B%E1%80%84%E1%80%B9%E1%80%B8%E1%80%9E%E1%80%AC%E1%80%B8-KADU-Native-Myanmar-1162554420525510/photos/1525429920904623) of another script for Kadu.
 
 Cak language traditionally had no script of its own, and speakers were obliged to use Bangla or Burmese script, which don’t have all the necessary letters. Addressing this problem, Mong Mong Cak devised a script and his younger brother Ong Khyaing Cak created a digital font that has been used in numerous school textbooks. It is on his font that this current project is largely based. 
 
