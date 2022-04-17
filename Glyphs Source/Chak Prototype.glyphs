@@ -1,51 +1,65 @@
 {
 .appVersion = "3123";
 .formatVersion = 3;
+DisplayStrings = (
+"/ka-chak/yaMedial-chak/eSign-chak  /ka-chak/eSign-chak",
+"/kha-chak/yaMedial-chak/eSign-chak  /kha-chak/yaMedial-chak  /kha-chak/eSign-chak/kha-chak/eSign-chak",
+"/ka-chak/yaMedial-chak/iMark-chak",
+"/ka-chak/eSign-chak  /ka-chak/yaMedial-chak/eSign-chak 
+/kha-chak/eSign-chak  /kha-chak/yaMedial-chak/eSign-chak 
+/ga-chak/eSign-chak  /ga-chak/yaMedial-chak/eSign-chak 
+/gha-chak/eSign-chak  /gha-chak/yaMedial-chak/eSign-chak",
+"/gha-chak/yaMedial-chak/eSign-chak/iMark-chak/uMark-chak  /gha-chak/iMark-chak/uMark-chak",
+"/ka-chak/iMark-chak/uMark-chak   /uMark-chak/iMark-chak",
+"/ka-chak/yaMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/raMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak  
+/ka-chak/yaMedial-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/raMedial-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/yaMedial-chak/raMedial-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak"
+);
 classes = (
 {
-code = "
-ka-myanmar
-kha-myanmar
-ga-myanmar
-gha-myanmar
-nga-myanmar
-ca-myanmar
-cha-myanmar
-ja-myanmar
-jha-myanmar
-nnya-myanmar
-tta-myanmar
-ttha-myanmar
-dda-myanmar
-ddha-myanmar
-nna-myanmar
-ta-myanmar
-tha-myanmar
-da-myanmar
-dha-myanmar
-na-myanmar
-pa-myanmar
-pha-myanmar
-ba-myanmar
-bha-myanmar
-ma-myanmar
-ya-myanmar
-ra-myanmar
-la-myanmar
-wa-myanmar
-sa-myanmar
-sha-myanmar
-ha-myanmar
-a-myanmar
-pphar-myanmar
-tthar-myanmar
-eSign-myanmar";
+code = "ka-chak
+kha-chak
+ga-chak
+gha-chak
+nga-chak
+ca-chak
+cha-chak
+ja-chak
+jha-chak
+nnya-chak
+tta-chak
+ttha-chak
+dda-chak
+ddha-chak
+nna-chak
+ta-chak
+tha-chak
+da-chak
+dha-chak
+na-chak
+pa-chak
+pha-chak
+ba-chak
+bha-chak
+ma-chak
+ya-chak
+ra-chak
+la-chak
+wa-chak
+sa-chak
+sha-chak
+ha-chak
+a-chak
+bba-chak
+ddda-chak
+eSign-chak
+";
 name = consonants;
 },
 {
-code = "iMark-myanmar
-iiMark-myanmar
-anusvara-myanmar";
+code = "iMark-chak
+iiMark-chak
+anusvara-chak
+";
 name = abovemarks;
 }
 );
@@ -59,6 +73,7 @@ name = MarkPreviewColorInactive;
 value = "0.3,0.8,0.8,0.5";
 },
 {
+disabled = 1;
 name = unicodeRanges;
 value = (
 74
@@ -68,78 +83,78 @@ value = (
 name = glyphOrder;
 value = (
 space,
-"a-myanmar",
-"i-myanmar",
-"ii-myanmar",
-"u-myanmar",
-"uu-myanmar",
-"e-mon",
-"a-shan",
-"o-myanmar",
-"au-myanmar",
-"e-myanmar",
-"ka-myanmar",
-"kha-myanmar",
-"ga-myanmar",
-"gha-myanmar",
-"nga-myanmar",
-"ca-myanmar",
-"cha-myanmar",
-"ja-myanmar",
-"jha-myanmar",
-"nnya-myanmar",
-"tta-myanmar",
-"ttha-myanmar",
-"dda-myanmar",
-"ddha-myanmar",
-"nna-myanmar",
-"ta-myanmar",
-"tha-myanmar",
-"da-myanmar",
-"dha-myanmar",
-"na-myanmar",
-"pa-myanmar",
-"pha-myanmar",
-"ba-myanmar",
-"bha-myanmar",
-"ma-myanmar",
-"ya-myanmar",
-"ra-myanmar",
-"la-myanmar",
-"wa-myanmar",
-"sa-myanmar",
-"sha-myanmar",
-"ha-myanmar",
-"pphar-myanmar",
-"tthar-myanmar",
-"aaSign-myanmar",
-"iMark-myanmar",
-"iiMark-myanmar",
-"uMark-myanmar",
-"uuMark-myanmar",
-"eSign-myanmar",
-"i-gebakaren",
-"haMedial-myanmar",
-"yaMedial-myanmar",
-"raMedial-myanmar",
-"waMedial-myanmar",
-"ee-kayah",
-"asat-myanmar",
-"dotbelow-myanmar",
-"anusvara-myanmar",
-"visarga-myanmar",
-"zero-myanmar",
-"one-myanmar",
-"two-myanmar",
-"three-myanmar",
-"four-myanmar",
-"five-myanmar",
-"six-myanmar",
-"seven-myanmar",
-"eight-myanmar",
-"nine-myanmar",
-"littlesection-myanmar",
-"section-myanmar",
+"a-chak",
+"i-chak",
+"ii-chak",
+"u-chak",
+"uu-chak",
+"oe-chak",
+"eu-chak",
+"o-chak",
+"au-chak",
+"e-chak",
+"ka-chak",
+"kha-chak",
+"ga-chak",
+"gha-chak",
+"nga-chak",
+"ca-chak",
+"cha-chak",
+"ja-chak",
+"jha-chak",
+"nnya-chak",
+"tta-chak",
+"ttha-chak",
+"dda-chak",
+"ddha-chak",
+"nna-chak",
+"ta-chak",
+"tha-chak",
+"da-chak",
+"dha-chak",
+"na-chak",
+"pa-chak",
+"pha-chak",
+"ba-chak",
+"bha-chak",
+"ma-chak",
+"ya-chak",
+"ra-chak",
+"la-chak",
+"wa-chak",
+"sa-chak",
+"sha-chak",
+"ha-chak",
+"bba-chak",
+"ddda-chak",
+"aaSign-chak",
+"iMark-chak",
+"iiMark-chak",
+"uMark-chak",
+"uuMark-chak",
+"eSign-chak",
+"oeMark-chak",
+"haMedial-chak",
+"yaMedial-chak",
+"raMedial-chak",
+"waMedial-chak",
+"rr-chak",
+"asat-chak",
+"dotbelow-chak",
+"anusvara-chak",
+"visarga-chak",
+"zero-chak",
+"one-chak",
+"two-chak",
+"three-chak",
+"four-chak",
+"five-chak",
+"six-chak",
+"seven-chak",
+"eight-chak",
+"nine-chak",
+"littlesection-chak",
+"section-chak",
 dottedCircle
 );
 }
@@ -148,7 +163,118 @@ date = "2022-04-16 09:58:21 +0000";
 familyName = "Chak Prototype";
 featurePrefixes = (
 {
-code = "lookup addMedialRa {
+code = "languagesystem DFLT dflt;
+
+";
+name = Languagesystems;
+},
+{
+code = "lookup addeVowelBeforeMedialYa {
+lookupflag IgnoreMarks;
+	sub yaMedial-chak' eSign-chak by eSign-chak yaMedial-chak;
+	} addeVowelBeforeMedialYa;
+
+lookup removeeVowelAfterMedialYa {
+lookupflag IgnoreMarks;
+	sub eSign-chak yaMedial-chak' eSign-chak' by yaMedial-chak;
+	} removeeVowelAfterMedialYa;
+
+lookup addeVowelBeforeConsonant {
+lookupflag IgnoreMarks;
+	sub ka-chak' eSign-chak by eSign-chak ka-chak;
+	sub kha-chak' eSign-chak by eSign-chak kha-chak;
+	sub ga-chak' eSign-chak by eSign-chak ga-chak;
+	sub gha-chak' eSign-chak by eSign-chak gha-chak;
+	sub nga-chak' eSign-chak by eSign-chak nga-chak;
+	sub ca-chak' eSign-chak by eSign-chak ca-chak;
+	sub cha-chak' eSign-chak by eSign-chak cha-chak;
+	sub ja-chak' eSign-chak by eSign-chak ja-chak;
+	sub jha-chak' eSign-chak by eSign-chak jha-chak;
+	sub nnya-chak' eSign-chak by eSign-chak nnya-chak;
+	sub tta-chak' eSign-chak by eSign-chak tta-chak;
+	sub ttha-chak' eSign-chak by eSign-chak ttha-chak;
+	sub dda-chak' eSign-chak by eSign-chak dda-chak;
+	sub ddha-chak' eSign-chak by eSign-chak ddha-chak;
+	sub nna-chak' eSign-chak by eSign-chak nna-chak;
+	sub ta-chak' eSign-chak by eSign-chak ta-chak;
+	sub tha-chak' eSign-chak by eSign-chak tha-chak;
+	sub da-chak' eSign-chak by eSign-chak da-chak;
+	sub dha-chak' eSign-chak by eSign-chak dha-chak;
+	sub na-chak' eSign-chak by eSign-chak na-chak;
+	sub pa-chak' eSign-chak by eSign-chak pa-chak;
+	sub pha-chak' eSign-chak by eSign-chak pha-chak;
+	sub ba-chak' eSign-chak by eSign-chak ba-chak;
+	sub bha-chak' eSign-chak by eSign-chak bha-chak;
+	sub ma-chak' eSign-chak by eSign-chak ma-chak;
+	sub ya-chak' eSign-chak by eSign-chak ya-chak;
+	sub ra-chak' eSign-chak by eSign-chak ra-chak;
+	sub la-chak' eSign-chak by eSign-chak la-chak;
+	sub wa-chak' eSign-chak by eSign-chak wa-chak;
+	sub sa-chak' eSign-chak by eSign-chak sa-chak;
+	sub sha-chak' eSign-chak by eSign-chak sha-chak;
+	sub ha-chak' eSign-chak by eSign-chak ha-chak;
+	sub a-chak' eSign-chak by eSign-chak a-chak;
+	sub bba-chak' eSign-chak by eSign-chak bba-chak;
+	sub ddda-chak' eSign-chak by eSign-chak ddda-chak;
+	} addeVowelBeforeConsonant;
+
+lookup removeeVowelAfterConsonant {
+lookupflag IgnoreMarks;
+
+	sub eSign-chak ka-chak' eSign-chak' by ka-chak;
+	sub eSign-chak kha-chak' eSign-chak' by kha-chak;
+	sub eSign-chak ga-chak' eSign-chak' by ga-chak;
+	sub eSign-chak gha-chak' eSign-chak' by gha-chak;
+	sub eSign-chak nga-chak' eSign-chak' by nga-chak;
+	sub eSign-chak ca-chak' eSign-chak' by ca-chak;
+	sub eSign-chak cha-chak' eSign-chak' by cha-chak;
+	sub eSign-chak ja-chak' eSign-chak' by ja-chak;
+	sub eSign-chak jha-chak' eSign-chak' by jha-chak;
+	sub eSign-chak nnya-chak' eSign-chak' by nnya-chak;
+	sub eSign-chak tta-chak' eSign-chak' by tta-chak;
+	sub eSign-chak ttha-chak' eSign-chak' by ttha-chak;
+	sub eSign-chak dda-chak' eSign-chak' by dda-chak;
+	sub eSign-chak ddha-chak' eSign-chak' by ddha-chak;
+	sub eSign-chak nna-chak' eSign-chak' by nna-chak;
+	sub eSign-chak ta-chak' eSign-chak' by ta-chak;
+	sub eSign-chak tha-chak' eSign-chak' by tha-chak;
+	sub eSign-chak da-chak' eSign-chak' by da-chak;
+	sub eSign-chak dha-chak' eSign-chak' by dha-chak;
+	sub eSign-chak na-chak' eSign-chak' by na-chak;
+	sub eSign-chak pa-chak' eSign-chak' by pa-chak;
+	sub eSign-chak pha-chak' eSign-chak' by pha-chak;
+	sub eSign-chak ba-chak' eSign-chak' by ba-chak;
+	sub eSign-chak bha-chak' eSign-chak' by bha-chak;
+	sub eSign-chak ma-chak' eSign-chak' by ma-chak;
+	sub eSign-chak ya-chak' eSign-chak' by ya-chak;
+	sub eSign-chak ra-chak' eSign-chak' by ra-chak;
+	sub eSign-chak la-chak' eSign-chak' by la-chak;
+	sub eSign-chak wa-chak' eSign-chak' by wa-chak;
+	sub eSign-chak sa-chak' eSign-chak' by sa-chak;
+	sub eSign-chak sha-chak' eSign-chak' by sha-chak;
+	sub eSign-chak ha-chak' eSign-chak' by ha-chak;
+	sub eSign-chak a-chak' eSign-chak' by a-chak;
+	sub eSign-chak bba-chak' eSign-chak' by bba-chak;
+	sub eSign-chak ddda-chak' eSign-chak' by ddda-chak;
+	} removeeVowelAfterConsonant;
+
+lookup addAboveVowelsAfterPostVowels {
+lookupflag 0;
+	sub iMark-chak uMark-chak' by uMark-chak iMark-chak;
+	sub iiMark-chak uMark-chak' by uMark-chak iiMark-chak;
+	sub anusvara-chak uMark-chak' by uMark-chak anusvara-chak;
+	sub iMark-chak uuMark-chak' by uuMark-chak iMark-chak;
+	sub iiMark-chak uuMark-chak' by uuMark-chak iiMark-chak;
+	sub anusvara-chak uuMark-chak' by uuMark-chak anusvara-chak;
+	} addAboveVowelsAfterPostVowels;
+
+lookup removeAboveVowelsBeforePostVowels {
+	sub [iMark-chak iiMark-chak anusvara-chak]' uMark-chak' by uMark-chak;
+	sub [iMark-chak iiMark-chak anusvara-chak]' uuMark-chak' by uuMark-chak;
+		} removeAboveVowelsBeforePostVowels;
+";
+name = zz01;
+notes = "lookup addMedialRa {
 	sub raMedial-myanmar ka-myanmar' by ka-myanmar raMedial-myanmar.mark;
 	sub raMedial-myanmar kha-myanmar' by kha-myanmar raMedial-myanmar.mark;
 	sub raMedial-myanmar ga-myanmar' by ga-myanmar raMedial-myanmar.mark;
@@ -188,114 +314,48 @@ code = "lookup addMedialRa {
 
 	} addMedialRa;
 
-lookup addMedialYaBeforeAboveMarks {
-	sub iMark-myanmar' yaMedial-myanmar by yaMedial-myanmar iMark-myanmar;
-	sub iiMark-myanmar' yaMedial-myanmar by yaMedial-myanmar iiMark-myanmar;
-	sub anusvara-myanmar' yaMedial-myanmar by yaMedial-myanmar anusvara-myanmar;
-	sub iMark-myanmar' uMark-myanmar by uMark-myanmar iMark-myanmar;
-	sub iiMark-myanmar' uMark-myanmar by uMark-myanmar iiMark-myanmar;
-	sub anusvara-myanmar' uMark-myanmar by uMark-myanmar anusvara-myanmar;
-	sub iMark-myanmar' uuMark-myanmar by uuMark-myanmar iMark-myanmar;
-	sub iiMark-myanmar' uuMark-myanmar by uuMark-myanmar iiMark-myanmar;
-	sub anusvara-myanmar' uuMark-myanmar by uuMark-myanmar anusvara-myanmar;
-	} addMedialYaBeforeAboveMarks;
 
-lookup removeMedialYaAfterAboveMarks {
-	sub iMark-myanmar' [yaMedial-myanmar uMark-myanmar uuMark-myanmar]' by iMark-myanmar;
-	sub iiMark-myanmar' [yaMedial-myanmar uMark-myanmar uuMark-myanmar]' by iiMark-myanmar;
-	sub anusvara-myanmar' [yaMedial-myanmar uMark-myanmar uuMark-myanmar]' by anusvara-myanmar;
-	} removeMedialYaAfterAboveMarks;";
-name = zz01;
-},
-{
-code = "languagesystem DFLT dflt;
-languagesystem mym2 dflt;
-languagesystem mym2 BRM ; # Burmese";
-name = Languagesystems;
+";
 }
 );
 features = (
 {
-code = "sub u-myanmar iiMark-myanmar by uu-myanmar;";
+code = "#lookup fixCanonicalEquivalence {
+#	sub u-myanmar iiMark-myanmar by uu-myanmar;
+#	} fixCanonicalEquivalence;
+lookupflag IgnoreMarks;
+lookup addeVowelBeforeMedialYa;
+lookup removeeVowelAfterMedialYa;
+lookupflag IgnoreMarks;
+lookup addeVowelBeforeConsonant;
+lookup removeeVowelAfterConsonant;
+
+lookupflag UseMarkFilteringSet @abovemarks;
+lookup addAboveVowelsAfterPostVowels;
+lookup removeAboveVowelsBeforePostVowels;	
+";
 tag = ccmp;
 },
 {
 code = "lookup alternateAa {
 	lookupflag IgnoreMarks;
-	sub [na-myanmar ra-myanmar] aaSign-myanmar' by aaSign-myanmar.rclt;
-	} alternateAa;";
+	sub [na-chak ra-chak] aaSign-chak' by aaSign-chak.rclt;
+	} alternateAa;
+";
 tag = rclt;
 },
 {
-code = "sub raMedial-myanmar' by raMedial-myanmar.mark;
-# sub eSign-myanmar' by eSign-myanmar;
-";
-disabled = 1;
-tag = pres;
-},
-{
-code = "sub aaSign-myanmar asat-myanmar' by asat-myanmar.rclt;
+code = "sub aaSign-chak asat-chak' by asat-chak.rclt;
 
-	lookupflag UseMarkFilteringSet @abovemarks;
-	lookup addMedialYaBeforeAboveMarks;
-	lookup removeMedialYaAfterAboveMarks;	
+
 ";
 tag = abvs;
 },
 {
-code = "lookup addMedialRa;
-
-
-";
-tag = blws;
-},
-{
-code = "lookup removeMedialRa {
-	sub raMedial-myanmar' ka-myanmar' by ka-myanmar;
-	sub raMedial-myanmar' kha-myanmar' by kha-myanmar;
-	sub raMedial-myanmar' ga-myanmar' by ga-myanmar;
-	sub raMedial-myanmar' gha-myanmar' by gha-myanmar;
-	sub raMedial-myanmar' nga-myanmar' by nga-myanmar;
-	sub raMedial-myanmar' ca-myanmar' by ca-myanmar;
-	sub raMedial-myanmar' cha-myanmar' by cha-myanmar;
-	sub raMedial-myanmar' ja-myanmar' by ja-myanmar;
-	sub raMedial-myanmar' jha-myanmar' by jha-myanmar;
-	sub raMedial-myanmar' nnya-myanmar' by nnya-myanmar;
-	sub raMedial-myanmar' tta-myanmar' by tta-myanmar;
-	sub raMedial-myanmar' ttha-myanmar' by ttha-myanmar;
-	sub raMedial-myanmar' dda-myanmar' by dda-myanmar;
-	sub raMedial-myanmar' ddha-myanmar' by ddha-myanmar;
-	sub raMedial-myanmar' nna-myanmar' by nna-myanmar;
-	sub raMedial-myanmar' ta-myanmar' by ta-myanmar;
-	sub raMedial-myanmar' tha-myanmar' by tha-myanmar;
-	sub raMedial-myanmar' da-myanmar' by da-myanmar;
-	sub raMedial-myanmar' dha-myanmar' by dha-myanmar;
-	sub raMedial-myanmar' na-myanmar' by na-myanmar;
-	sub raMedial-myanmar' pa-myanmar' by pa-myanmar;
-	sub raMedial-myanmar' pha-myanmar' by pha-myanmar;
-	sub raMedial-myanmar' ba-myanmar' by ba-myanmar;
-	sub raMedial-myanmar' bha-myanmar' by bha-myanmar;
-	sub raMedial-myanmar' ma-myanmar' by ma-myanmar;
-	sub raMedial-myanmar' ya-myanmar' by ya-myanmar;
-	sub raMedial-myanmar' ra-myanmar' by ra-myanmar;
-	sub raMedial-myanmar' la-myanmar' by la-myanmar;
-	sub raMedial-myanmar' wa-myanmar' by wa-myanmar;
-	sub raMedial-myanmar' sa-myanmar' by sa-myanmar;
-	sub raMedial-myanmar' sha-myanmar' by sha-myanmar;
-	sub raMedial-myanmar' ha-myanmar' by ha-myanmar;
-	sub raMedial-myanmar' a-myanmar' by a-myanmar;
-	sub raMedial-myanmar' pphar-myanmar' by pphar-myanmar;
-	sub raMedial-myanmar' tthar-myanmar' by tthar-myanmar;
-	sub raMedial-myanmar' dottedCircle' by dottedCircle;
-	} removeMedialRa;
-";
-tag = blws;
-},
-{
 code = "# Automatic Code End
-pos yaMedial-myanmar uMark-myanmar [iMark-myanmar iiMark-myanmar anusvara-myanmar]' <-108 0 0 0>;
-pos yaMedial-myanmar uuMark-myanmar [iMark-myanmar iiMark-myanmar anusvara-myanmar]' <-105 0 0 0>;
-pos raMedial-myanmar.mark waMedial-myanmar' <0 -205 0 0>;
+pos yaMedial-chak uMark-chak [iMark-chak iiMark-chak anusvara-chak]' <-108 0 0 0>;
+pos yaMedial-chak uuMark-chak [iMark-chak iiMark-chak anusvara-chak]' <-105 0 0 0>;
+pos raMedial-chak waMedial-chak' <0 -205 0 0>;
 ";
 tag = mark;
 }
@@ -345,8 +405,8 @@ width = 350;
 unicode = 32;
 },
 {
-glyphname = "a-myanmar";
-lastChange = "2022-04-14 07:59:02 +0000";
+glyphname = "a-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -652,11 +712,11 @@ width = 1042;
 }
 );
 metricRight = "=wa-myanmar";
-unicode = 4129;
+unicode = 57344;
 },
 {
-glyphname = "i-myanmar";
-lastChange = "2022-04-14 12:35:43 +0000";
+glyphname = "i-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 background = {
@@ -752,42 +812,42 @@ nodes = (
 layerId = m01;
 shapes = (
 {
-ref = "_part.i-myanmar";
+ref = "_part.i-chak";
 },
 {
 pos = (393,0);
-ref = "iMark-myanmar";
+ref = "iMark-chak";
 }
 );
 width = 896;
 }
 );
 metricRight = "=|";
-unicode = 4131;
+unicode = 57346;
 },
 {
-glyphname = "ii-myanmar";
-lastChange = "2022-04-14 12:35:43 +0000";
+glyphname = "ii-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = "_part.i-myanmar";
+ref = "_part.i-chak";
 },
 {
 pos = (393,0);
-ref = "iiMark-myanmar";
+ref = "iiMark-chak";
 }
 );
 width = 896;
 }
 );
-unicode = 4132;
+unicode = 57347;
 },
 {
-glyphname = "u-myanmar";
-lastChange = "2022-04-16 10:04:24 +0000";
+glyphname = "u-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -974,11 +1034,11 @@ width = 523;
 }
 );
 metricRight = "=i-myanmar";
-unicode = 4133;
+unicode = 57348;
 },
 {
-glyphname = "uu-myanmar";
-lastChange = "2022-04-14 07:51:52 +0000";
+glyphname = "uu-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 background = {
@@ -1109,11 +1169,11 @@ width = 523;
 );
 metricLeft = "=u-myanmar";
 metricRight = "=u-myanmar";
-unicode = 4134;
+unicode = 57349;
 },
 {
-glyphname = "e-mon";
-lastChange = "2022-04-14 12:09:32 +0000";
+glyphname = "oe-chak";
+lastChange = "2022-04-17 16:07:15 +0000";
 layers = (
 {
 background = {
@@ -1287,11 +1347,11 @@ width = 738;
 );
 metricLeft = "=wa-myanmar";
 metricRight = "=|";
-unicode = 4136;
+unicode = 57353;
 },
 {
-glyphname = "a-shan";
-lastChange = "2022-04-14 12:36:55 +0000";
+glyphname = "eu-chak";
+lastChange = "2022-04-17 16:10:43 +0000";
 layers = (
 {
 background = {
@@ -1430,11 +1490,11 @@ width = 572;
 );
 metricLeft = "=wa-myanmar";
 metricRight = "=|";
-unicode = 4130;
+unicode = 57354;
 },
 {
-glyphname = "o-myanmar";
-lastChange = "2022-04-14 12:38:16 +0000";
+glyphname = "o-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -1594,31 +1654,31 @@ width = 1060;
 }
 );
 metricLeft = "=wa-myanmar";
-unicode = 4137;
+unicode = 57350;
 },
 {
-glyphname = "au-myanmar";
-lastChange = "2022-04-14 12:27:18 +0000";
+glyphname = "au-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = "o-myanmar";
+ref = "o-chak";
 },
 {
 pos = (705,-5);
-ref = "asat-myanmar.rclt";
+ref = "asat-chak.rclt";
 }
 );
 width = 1060;
 }
 );
-unicode = 4138;
+unicode = 57351;
 },
 {
-glyphname = "e-myanmar";
-lastChange = "2022-04-14 12:13:55 +0000";
+glyphname = "e-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -1638,7 +1698,7 @@ pos = (366,600);
 background = {
 shapes = (
 {
-ref = "wa-myanmar";
+ref = "wa-chak";
 }
 );
 };
@@ -1699,11 +1759,12 @@ width = 697;
 }
 );
 metricLeft = "=wa-myanmar";
-unicode = 4135;
+unicode = 57352;
 },
 {
-glyphname = "ka-myanmar";
-lastChange = "2022-04-13 11:20:28 +0000";
+category = Letter;
+glyphname = "ka-chak";
+lastChange = "2022-04-17 16:16:31 +0000";
 layers = (
 {
 anchors = (
@@ -1723,7 +1784,7 @@ pos = (764,600);
 background = {
 shapes = (
 {
-ref = "ma-myanmar";
+ref = "ma-chak";
 },
 {
 closed = 1;
@@ -1856,11 +1917,13 @@ width = 1088;
 );
 metricLeft = "=wa-myanmar";
 metricRight = "=|";
-unicode = 4096;
+script = chak;
+subCategory = Spacing;
+unicode = 57355;
 },
 {
-glyphname = "kha-myanmar";
-lastChange = "2022-04-13 11:21:54 +0000";
+glyphname = "kha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -1914,7 +1977,7 @@ nodes = (
 );
 },
 {
-ref = "wa-myanmar";
+ref = "wa-chak";
 }
 );
 };
@@ -1983,11 +2046,11 @@ width = 738;
 );
 metricLeft = "=wa-myanmar";
 metricRight = "=|";
-unicode = 4097;
+unicode = 57356;
 },
 {
-glyphname = "ga-myanmar";
-lastChange = "2022-04-14 10:18:06 +0000";
+glyphname = "ga-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 associatedMasterId = m01;
@@ -2469,11 +2532,12 @@ width = 738;
 }
 );
 metricRight = "=wa-myanmar";
-unicode = 4098;
+unicode = 57357;
 },
 {
-glyphname = "gha-myanmar";
-lastChange = "2022-04-14 10:51:14 +0000";
+category = Letter;
+glyphname = "gha-chak";
+lastChange = "2022-04-17 16:16:22 +0000";
 layers = (
 {
 anchors = (
@@ -2657,11 +2721,13 @@ width = 731;
 }
 );
 metricLeft = "=wa-myanmar";
-unicode = 4099;
+script = chak;
+subCategory = Spacing;
+unicode = 57358;
 },
 {
-glyphname = "nga-myanmar";
-lastChange = "2022-04-13 21:14:14 +0000";
+glyphname = "nga-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -2715,7 +2781,7 @@ nodes = (
 );
 },
 {
-ref = "wa-myanmar";
+ref = "wa-chak";
 }
 );
 };
@@ -2832,7 +2898,7 @@ nodes = (
 );
 },
 {
-ref = "wa-myanmar";
+ref = "wa-chak";
 }
 );
 };
@@ -2899,11 +2965,11 @@ width = 760;
 }
 );
 metricLeft = "=wa-myanmar";
-unicode = 4100;
+unicode = 57359;
 },
 {
-glyphname = "ca-myanmar";
-lastChange = "2022-04-13 13:59:49 +0000";
+glyphname = "ca-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3070,11 +3136,11 @@ width = 844;
 }
 );
 metricRight = "=wa-myanmar";
-unicode = 4101;
+unicode = 57360;
 },
 {
-glyphname = "cha-myanmar";
-lastChange = "2022-04-13 11:23:17 +0000";
+glyphname = "cha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3249,11 +3315,11 @@ width = 1368;
 );
 metricLeft = "=ca-myanmar";
 metricRight = "=wa-myanmar";
-unicode = 4102;
+unicode = 57361;
 },
 {
-glyphname = "ja-myanmar";
-lastChange = "2022-04-13 11:38:13 +0000";
+glyphname = "ja-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3385,11 +3451,11 @@ width = 722;
 }
 );
 metricLeft = "=wa-myanmar";
-unicode = 4103;
+unicode = 57362;
 },
 {
-glyphname = "jha-myanmar";
-lastChange = "2022-04-14 11:10:06 +0000";
+glyphname = "jha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3545,11 +3611,11 @@ width = 1153;
 }
 );
 metricLeft = "=wa-myanmar";
-unicode = 4104;
+unicode = 57363;
 },
 {
-glyphname = "nnya-myanmar";
-lastChange = "2022-04-14 10:43:50 +0000";
+glyphname = "nnya-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3570,7 +3636,7 @@ background = {
 shapes = (
 {
 pos = (420,0);
-ref = "wa-myanmar";
+ref = "wa-chak";
 }
 );
 };
@@ -3670,11 +3736,11 @@ width = 1127;
 }
 );
 metricRight = "=wa-myanmar";
-unicode = 4106;
+unicode = 57364;
 },
 {
-glyphname = "tta-myanmar";
-lastChange = "2022-04-14 11:01:29 +0000";
+glyphname = "tta-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3814,11 +3880,11 @@ width = 523;
 }
 );
 metricLeft = "=i-myanmar";
-unicode = 4107;
+unicode = 57365;
 },
 {
-glyphname = "ttha-myanmar";
-lastChange = "2022-04-13 11:23:40 +0000";
+glyphname = "ttha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3894,11 +3960,11 @@ width = 527;
 }
 );
 metricLeft = "=i-myanmar";
-unicode = 4108;
+unicode = 57366;
 },
 {
-glyphname = "dda-myanmar";
-lastChange = "2022-04-14 11:16:59 +0000";
+glyphname = "dda-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -3996,11 +4062,11 @@ width = 527;
 );
 metricLeft = "=|ttha-myanmar";
 metricRight = "=|ttha-myanmar";
-unicode = 4109;
+unicode = 57367;
 },
 {
-glyphname = "ddha-myanmar";
-lastChange = "2022-04-13 11:23:42 +0000";
+glyphname = "ddha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -4079,11 +4145,11 @@ width = 814;
 }
 );
 metricRight = "=|";
-unicode = 4110;
+unicode = 57368;
 },
 {
-glyphname = "nna-myanmar";
-lastChange = "2022-04-14 08:27:51 +0000";
+glyphname = "nna-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -4162,11 +4228,11 @@ width = 718;
 }
 );
 metricRight = "=|";
-unicode = 4111;
+unicode = 57369;
 },
 {
-glyphname = "ta-myanmar";
-lastChange = "2022-04-13 11:20:22 +0000";
+glyphname = "ta-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -4288,11 +4354,11 @@ width = 738;
 );
 metricRight = "=wa-myanmar";
 metricWidth = "=wa-myanmar";
-unicode = 4112;
+unicode = 57370;
 },
 {
-glyphname = "tha-myanmar";
-lastChange = "2022-04-13 11:20:18 +0000";
+glyphname = "tha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -4313,18 +4379,18 @@ layerId = m01;
 shapes = (
 {
 pos = (0,580);
-ref = "ga-myanmar";
+ref = "ga-chak";
 scale = (1,-1);
 }
 );
 width = 738;
 }
 );
-unicode = 4113;
+unicode = 57371;
 },
 {
-glyphname = "da-myanmar";
-lastChange = "2022-04-14 10:34:02 +0000";
+glyphname = "da-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -4479,11 +4545,11 @@ nodes = (
 width = 588;
 }
 );
-unicode = 4114;
+unicode = 57372;
 },
 {
-glyphname = "dha-myanmar";
-lastChange = "2022-04-14 08:10:16 +0000";
+glyphname = "dha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -4587,11 +4653,11 @@ width = 750;
 );
 metricLeft = "=wa-myanmar";
 metricRight = "=|";
-unicode = 4115;
+unicode = 57373;
 },
 {
-glyphname = "na-myanmar";
-lastChange = "2022-04-14 10:02:29 +0000";
+glyphname = "na-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -4944,11 +5010,11 @@ nodes = (
 width = 694;
 }
 );
-unicode = 4116;
+unicode = 57374;
 },
 {
-glyphname = "pa-myanmar";
-lastChange = "2022-04-13 15:11:48 +0000";
+glyphname = "pa-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -5236,11 +5302,11 @@ width = 848;
 }
 );
 metricRight = "=wa-myanmar";
-unicode = 4117;
+unicode = 57375;
 },
 {
-glyphname = "pha-myanmar";
-lastChange = "2022-04-13 11:23:53 +0000";
+glyphname = "pha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -5261,18 +5327,18 @@ layerId = m01;
 shapes = (
 {
 pos = (0,580);
-ref = "ta-myanmar";
+ref = "ta-chak";
 scale = (1,-1);
 }
 );
 width = 738;
 }
 );
-unicode = 4118;
+unicode = 57376;
 },
 {
-glyphname = "ba-myanmar";
-lastChange = "2022-04-14 11:52:00 +0000";
+glyphname = "ba-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -5429,11 +5495,11 @@ width = 744;
 );
 metricLeft = "=nna-myanmar";
 metricRight = "=gha-myanmar";
-unicode = 4119;
+unicode = 57377;
 },
 {
-glyphname = "bha-myanmar";
-lastChange = "2022-04-13 11:22:02 +0000";
+glyphname = "bha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -5844,11 +5910,11 @@ width = 1061;
 }
 );
 metricRight = "=wa-myanmar";
-unicode = 4120;
+unicode = 57378;
 },
 {
-glyphname = "ma-myanmar";
-lastChange = "2022-04-14 08:13:01 +0000";
+glyphname = "ma-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -6497,11 +6563,11 @@ width = 1088;
 );
 metricLeft = "=wa-myanmar";
 metricRight = "=wa-myanmar";
-unicode = 4121;
+unicode = 57379;
 },
 {
-glyphname = "ya-myanmar";
-lastChange = "2022-04-13 11:20:31 +0000";
+glyphname = "ya-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -6522,18 +6588,18 @@ layerId = m01;
 shapes = (
 {
 pos = (0,580);
-ref = "ka-myanmar";
+ref = "ka-chak";
 scale = (1,-1);
 }
 );
 width = 1088;
 }
 );
-unicode = 4122;
+unicode = 57380;
 },
 {
-glyphname = "ra-myanmar";
-lastChange = "2022-04-14 10:45:23 +0000";
+glyphname = "ra-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -6752,11 +6818,11 @@ width = 622;
 );
 metricLeft = "=i-myanmar";
 metricRight = "=uMark-myanmar";
-unicode = 4123;
+unicode = 57381;
 },
 {
-glyphname = "la-myanmar";
-lastChange = "2022-04-13 21:32:31 +0000";
+glyphname = "la-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -6777,7 +6843,7 @@ background = {
 shapes = (
 {
 pos = (438,0);
-ref = "wa-myanmar";
+ref = "wa-chak";
 }
 );
 };
@@ -6844,11 +6910,11 @@ width = 1088;
 );
 metricLeft = "=wa-myanmar";
 metricRight = "=|";
-unicode = 4124;
+unicode = 57382;
 },
 {
-glyphname = "wa-myanmar";
-lastChange = "2022-04-14 08:00:27 +0000";
+glyphname = "wa-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -6906,11 +6972,11 @@ width = 738;
 }
 );
 metricRight = "=|";
-unicode = 4125;
+unicode = 57383;
 },
 {
-glyphname = "sa-myanmar";
-lastChange = "2022-04-13 11:22:17 +0000";
+glyphname = "sa-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -7359,11 +7425,11 @@ width = 1050;
 }
 );
 metricRight = "=wa-myanmar";
-unicode = 4126;
+unicode = 57384;
 },
 {
-glyphname = "sha-myanmar";
-lastChange = "2022-04-13 11:37:41 +0000";
+glyphname = "sha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -7694,11 +7760,11 @@ width = 764;
 }
 );
 metricRight = "=|";
-unicode = 4176;
+unicode = 57385;
 },
 {
-glyphname = "ha-myanmar";
-lastChange = "2022-04-13 18:15:48 +0000";
+glyphname = "ha-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -8036,12 +8102,12 @@ nodes = (
 width = 630;
 }
 );
-unicode = 4127;
+unicode = 57386;
 },
 {
 category = Letter;
-glyphname = "pphar-myanmar";
-lastChange = "2022-04-13 14:00:21 +0000";
+glyphname = "bba-chak";
+lastChange = "2022-04-17 16:14:29 +0000";
 layers = (
 {
 anchors = (
@@ -8129,12 +8195,12 @@ width = 1054;
 metricRight = "=|";
 script = myanmar;
 subCategory = Spacing;
-unicode = 4248;
+unicode = 57388;
 },
 {
 category = Letter;
-glyphname = "tthar-myanmar";
-lastChange = "2022-04-13 13:53:02 +0000";
+glyphname = "ddda-chak";
+lastChange = "2022-04-17 16:14:48 +0000";
 layers = (
 {
 anchors = (
@@ -8213,12 +8279,12 @@ metricLeft = "=i-myanmar";
 metricRight = "=|";
 script = myanmar;
 subCategory = Spacing;
-unicode = 4249;
+unicode = 57387;
 },
 {
 category = Letter;
-glyphname = "aaSign-myanmar";
-lastChange = "2022-04-13 21:07:59 +0000";
+glyphname = "aaSign-chak";
+lastChange = "2022-04-17 16:12:49 +0000";
 layers = (
 {
 anchors = (
@@ -8415,13 +8481,14 @@ width = 382;
 }
 );
 metricRight = "=wa-myanmar";
-script = myanmar;
+script = chak;
 subCategory = Spacing;
-unicode = 4140;
+unicode = 57389;
 },
 {
-glyphname = "iMark-myanmar";
-lastChange = "2022-04-14 07:32:37 +0000";
+category = Mark;
+glyphname = "iMark-chak";
+lastChange = "2022-04-17 16:13:02 +0000";
 layers = (
 {
 anchors = (
@@ -8472,11 +8539,14 @@ width = 462;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4141;
+script = chak;
+subCategory = Nonspacing;
+unicode = 57390;
 },
 {
-glyphname = "iiMark-myanmar";
-lastChange = "2022-04-14 07:28:11 +0000";
+category = Mark;
+glyphname = "iiMark-chak";
+lastChange = "2022-04-17 16:13:08 +0000";
 layers = (
 {
 anchors = (
@@ -8609,12 +8679,13 @@ width = 462;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4142;
+subCategory = Nonspacing;
+unicode = 57391;
 },
 {
 category = Letter;
-glyphname = "uMark-myanmar";
-lastChange = "2022-04-13 15:37:58 +0000";
+glyphname = "uMark-chak";
+lastChange = "2022-04-17 16:13:14 +0000";
 layers = (
 {
 anchors = (
@@ -8648,13 +8719,14 @@ width = 284;
 }
 );
 metricLeft = "=littlesection-myanmar";
+script = chak;
 subCategory = Spacing;
-unicode = 4143;
+unicode = 57392;
 },
 {
 category = Letter;
-glyphname = "uuMark-myanmar";
-lastChange = "2022-04-16 10:02:18 +0000";
+glyphname = "uuMark-chak";
+lastChange = "2022-04-17 16:13:20 +0000";
 layers = (
 {
 anchors = (
@@ -8676,19 +8748,20 @@ nodes = (
 },
 {
 pos = (210,0);
-ref = "uMark-myanmar";
+ref = "uMark-chak";
 }
 );
 width = 494;
 }
 );
+script = chak;
 subCategory = Spacing;
-unicode = 4144;
+unicode = 57393;
 },
 {
 category = Letter;
-glyphname = "eSign-myanmar";
-lastChange = "2022-04-13 13:01:21 +0000";
+glyphname = "eSign-chak";
+lastChange = "2022-04-17 16:13:27 +0000";
 layers = (
 {
 background = {
@@ -8788,13 +8861,14 @@ width = 500;
 }
 );
 metricLeft = "=wa-myanmar";
-script = myanmar;
+script = chak;
 subCategory = Spacing;
-unicode = 4145;
+unicode = 57394;
 },
 {
-glyphname = "i-gebakaren";
-lastChange = "2022-04-14 11:56:10 +0000";
+category = Mark;
+glyphname = "oeMark-chak";
+lastChange = "2022-04-17 16:15:12 +0000";
 layers = (
 {
 anchors = (
@@ -8883,11 +8957,13 @@ width = 584;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4209;
+subCategory = Nonspacing;
+unicode = 57395;
 },
 {
-glyphname = "haMedial-myanmar";
-lastChange = "2022-04-14 11:06:38 +0000";
+category = Mark;
+glyphname = "haMedial-chak";
+lastChange = "2022-04-17 16:15:19 +0000";
 layers = (
 {
 anchors = (
@@ -8956,17 +9032,23 @@ width = 582;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4158;
+subCategory = Nonspacing;
+unicode = 57397;
 },
 {
-glyphname = "yaMedial-myanmar";
-lastChange = "2022-04-15 10:34:15 +0000";
+category = Letter;
+glyphname = "yaMedial-chak";
+lastChange = "2022-04-17 16:15:24 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottomright;
 pos = (-10,-10);
+},
+{
+name = medialRa;
+pos = (145,0);
 },
 {
 name = top;
@@ -9004,12 +9086,14 @@ width = 235;
 );
 metricLeft = "=uMark-myanmar@290";
 metricRight = "=jha-myanmar";
-unicode = 4155;
+script = chak;
+subCategory = Spacing;
+unicode = 57398;
 },
 {
-category = Letter;
-glyphname = "raMedial-myanmar";
-lastChange = "2022-04-15 10:43:01 +0000";
+category = Mark;
+glyphname = "raMedial-chak";
+lastChange = "2022-04-17 16:15:28 +0000";
 layers = (
 {
 anchors = (
@@ -9048,13 +9132,14 @@ width = 688;
 );
 metricLeft = "=50";
 metricRight = "=50";
-script = myanmar;
-subCategory = Spacing;
-unicode = 4156;
+script = chak;
+subCategory = Nonspacing;
+unicode = 57399;
 },
 {
-glyphname = "waMedial-myanmar";
-lastChange = "2022-04-15 10:40:05 +0000";
+category = Mark;
+glyphname = "waMedial-chak";
+lastChange = "2022-04-17 16:15:35 +0000";
 layers = (
 {
 anchors = (
@@ -9157,11 +9242,14 @@ width = 444;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4157;
+script = chak;
+subCategory = Nonspacing;
+unicode = 57400;
 },
 {
-glyphname = "ee-kayah";
-lastChange = "2022-04-14 11:05:40 +0000";
+category = Mark;
+glyphname = "rr-chak";
+lastChange = "2022-04-17 16:15:39 +0000";
 layers = (
 {
 anchors = (
@@ -9190,11 +9278,13 @@ width = 528;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4212;
+subCategory = Nonspacing;
+unicode = 57396;
 },
 {
-glyphname = "asat-myanmar";
-lastChange = "2022-04-13 21:24:25 +0000";
+category = Mark;
+glyphname = "asat-chak";
+lastChange = "2022-04-17 16:15:44 +0000";
 layers = (
 {
 anchors = (
@@ -9220,11 +9310,13 @@ width = 538;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4154;
+subCategory = Nonspacing;
+unicode = 57401;
 },
 {
-glyphname = "dotbelow-myanmar";
-lastChange = "2022-04-13 21:24:22 +0000";
+category = Mark;
+glyphname = "dotbelow-chak";
+lastChange = "2022-04-17 16:15:49 +0000";
 layers = (
 {
 anchors = (
@@ -9250,11 +9342,13 @@ width = 538;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4151;
+subCategory = Nonspacing;
+unicode = 57402;
 },
 {
-glyphname = "anusvara-myanmar";
-lastChange = "2022-04-13 21:26:00 +0000";
+category = Mark;
+glyphname = "anusvara-chak";
+lastChange = "2022-04-17 16:15:55 +0000";
 layers = (
 {
 anchors = (
@@ -9292,11 +9386,12 @@ width = 366;
 );
 metricLeft = "=50";
 metricRight = "=50";
-unicode = 4150;
+subCategory = Nonspacing;
+unicode = 57403;
 },
 {
-glyphname = "visarga-myanmar";
-lastChange = "2022-04-12 11:48:03 +0000";
+glyphname = "visarga-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
@@ -9374,27 +9469,27 @@ width = 294;
 }
 );
 metricRight = "=|";
-unicode = 4152;
+unicode = 57404;
 },
 {
-glyphname = "zero-myanmar";
-lastChange = "2022-04-14 12:54:16 +0000";
+glyphname = "zero-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = "wa-myanmar";
+ref = "wa-chak";
 }
 );
 width = 738;
 }
 );
-unicode = 4160;
+unicode = 57408;
 },
 {
-glyphname = "one-myanmar";
-lastChange = "2022-04-14 18:31:52 +0000";
+glyphname = "one-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 background = {
@@ -9479,11 +9574,11 @@ nodes = (
 width = 592;
 }
 );
-unicode = 4161;
+unicode = 57409;
 },
 {
-glyphname = "two-myanmar";
-lastChange = "2022-04-15 10:09:55 +0000";
+glyphname = "two-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
@@ -9522,11 +9617,11 @@ width = 610;
 }
 );
 metricRight = "=littlesection-myanmar";
-unicode = 4162;
+unicode = 57410;
 },
 {
-glyphname = "three-myanmar";
-lastChange = "2022-04-14 18:36:49 +0000";
+glyphname = "three-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 background = {
@@ -9578,36 +9673,36 @@ layerId = m01;
 shapes = (
 {
 pos = (0,580);
-ref = "one-myanmar";
+ref = "one-chak";
 scale = (1,-1);
 }
 );
 width = 592;
 }
 );
-unicode = 4163;
+unicode = 57411;
 },
 {
-glyphname = "four-myanmar";
-lastChange = "2022-04-15 09:50:42 +0000";
+glyphname = "four-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,580);
-ref = "two-myanmar";
+ref = "two-chak";
 scale = (1,-1);
 }
 );
 width = 610;
 }
 );
-unicode = 4164;
+unicode = 57412;
 },
 {
-glyphname = "five-myanmar";
-lastChange = "2022-04-15 10:10:13 +0000";
+glyphname = "five-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
@@ -9663,11 +9758,11 @@ width = 683;
 );
 metricLeft = "=|two-myanmar";
 metricRight = "=|two-myanmar";
-unicode = 4165;
+unicode = 57413;
 },
 {
-glyphname = "six-myanmar";
-lastChange = "2022-04-15 08:15:30 +0000";
+glyphname = "six-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
@@ -9715,11 +9810,11 @@ nodes = (
 width = 473;
 }
 );
-unicode = 4166;
+unicode = 57414;
 },
 {
-glyphname = "seven-myanmar";
-lastChange = "2022-04-15 09:54:17 +0000";
+glyphname = "seven-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 layerId = m01;
@@ -9772,11 +9867,11 @@ width = 726;
 );
 metricLeft = "=two-myanmar";
 metricRight = "=|";
-unicode = 4167;
+unicode = 57415;
 },
 {
-glyphname = "eight-myanmar";
-lastChange = "2022-04-15 11:21:55 +0000";
+glyphname = "eight-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 background = {
@@ -9864,11 +9959,11 @@ nodes = (
 width = 607;
 }
 );
-unicode = 4168;
+unicode = 57416;
 },
 {
-glyphname = "nine-myanmar";
-lastChange = "2022-04-15 11:23:19 +0000";
+glyphname = "nine-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 background = {
@@ -10158,11 +10253,11 @@ nodes = (
 width = 558;
 }
 );
-unicode = 4169;
+unicode = 57417;
 },
 {
-glyphname = "littlesection-myanmar";
-lastChange = "2022-04-16 10:01:21 +0000";
+glyphname = "littlesection-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -10211,11 +10306,11 @@ width = 230;
 );
 metricRight = "=|";
 subCategory = Spacing;
-unicode = 4170;
+unicode = 57405;
 },
 {
-glyphname = "section-myanmar";
-lastChange = "2022-04-16 10:02:06 +0000";
+glyphname = "section-chak";
+lastChange = "2022-04-17 16:04:51 +0000";
 layers = (
 {
 anchors = (
@@ -10249,7 +10344,7 @@ width = 440;
 }
 );
 subCategory = Spacing;
-unicode = 4171;
+unicode = 57406;
 },
 {
 glyphname = dottedCircle;
@@ -10523,8 +10618,8 @@ unicode = 9676;
 },
 {
 category = Letter;
-glyphname = "aaSign-myanmar.rclt";
-lastChange = "2022-04-14 10:14:35 +0000";
+glyphname = "aaSign-chak.rclt";
+lastChange = "2022-04-17 16:18:20 +0000";
 layers = (
 {
 anchors = (
@@ -10722,14 +10817,14 @@ width = 382;
 }
 );
 metricRight = "=wa-myanmar";
-script = myanmar;
+script = chak;
 subCategory = Spacing;
 },
 {
 category = Letter;
 export = 0;
-glyphname = "_part.i-myanmar";
-lastChange = "2022-04-14 12:35:48 +0000";
+glyphname = "_part.i-chak";
+lastChange = "2022-04-17 16:18:26 +0000";
 layers = (
 {
 anchors = (
@@ -10830,70 +10925,13 @@ nodes = (
 width = 896;
 }
 );
-script = myanmar;
+script = chak;
 subCategory = Spacing;
 },
 {
 category = Mark;
-glyphname = __.invisible;
-lastChange = "2022-04-13 12:49:28 +0000";
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-script = myanmar;
-subCategory = Nonspacing;
-},
-{
-category = Mark;
-glyphname = "raMedial-myanmar.mark";
-lastChange = "2022-04-15 10:42:44 +0000";
-layers = (
-{
-anchors = (
-{
-name = _medialRa;
-pos = (648,0);
-},
-{
-name = medialWa;
-pos = (648,-205);
-}
-);
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(562,-205,l),
-(638,-205,l),
-(638,220,l),
-(562,140,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(50,-130,l),
-(50,-205,l),
-(638,-205,l),
-(598,-130,l)
-);
-}
-);
-width = 688;
-}
-);
-metricLeft = "=50";
-metricRight = "=50";
-script = myanmar;
-subCategory = Nonspacing;
-},
-{
-glyphname = "asat-myanmar.rclt";
-lastChange = "2022-04-14 12:26:03 +0000";
+glyphname = "asat-chak.rclt";
+lastChange = "2022-04-17 16:18:46 +0000";
 layers = (
 {
 anchors = (
@@ -10965,15 +11003,18 @@ nodes = (
 );
 }
 );
-width = 420;
+width = 436;
 }
 );
 metricLeft = "=50";
 metricRight = "=50";
+script = chak;
+subCategory = Nonspacing;
 },
 {
-glyphname = "waMedial-myanmar.rclt";
-lastChange = "2022-04-15 10:40:10 +0000";
+category = Mark;
+glyphname = "waMedial-chak.rclt";
+lastChange = "2022-04-17 16:19:05 +0000";
 layers = (
 {
 anchors = (
@@ -11076,6 +11117,8 @@ width = 444;
 );
 metricLeft = "=50";
 metricRight = "=50";
+script = chak;
+subCategory = Nonspacing;
 }
 );
 instances = (
@@ -11088,28 +11131,28 @@ name = Regular;
 );
 kerningLTR = {
 m01 = {
-"ha-myanmar" = {
-"yaMedial-myanmar" = 65;
+"ha-chak" = {
+"yaMedial-chak" = 65;
 };
-"ja-myanmar" = {
-"yaMedial-myanmar" = 13;
+"ja-chak" = {
+"yaMedial-chak" = 13;
 };
-"jha-myanmar" = {
-"yaMedial-myanmar" = 15;
+"jha-chak" = {
+"yaMedial-chak" = 15;
 };
-"littlesection-myanmar" = {
-"littlesection-myanmar" = -20;
-"uMark-myanmar" = -20;
+"littlesection-chak" = {
+"littlesection-chak" = -20;
+"uMark-chak" = -20;
 };
-"ra-myanmar" = {
-"aaSign-myanmar.rclt" = -14;
+"ra-chak" = {
+"aaSign-chak.rclt" = -14;
 };
-"sha-myanmar" = {
-"yaMedial-myanmar" = 60;
+"sha-chak" = {
+"yaMedial-chak" = 60;
 };
-"yaMedial-myanmar" = {
-"uMark-myanmar" = -20;
-"uuMark-myanmar" = -20;
+"yaMedial-chak" = {
+"uMark-chak" = -20;
+"uuMark-chak" = -20;
 };
 };
 };
