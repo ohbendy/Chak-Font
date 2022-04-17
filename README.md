@@ -9,7 +9,7 @@ Cak language traditionally had no script of its own, and speakers were obliged t
 
 Mong Mong Cak's version of the script is undocumented in English language: in the resources consulted, some characters are missing their sound values. The script may also be incomplete: some sound values are missing a character. [Huziwara (2019)](https://www.academia.edu/38737691/A_sketch_of_Cak_grammar) proposes some amendments to the alphabet to improve consistent spelling and permit greater correspondance between phonemes and graphemes. 
 
-This font is currently encoded in Unicode's Burmese range with arbitrary codepoints for letters that have no cognates in Burmese. 
+This font is currently encoded using Unicode PUA codepoints E000-E03E. 
 
 ## Character set:
 
