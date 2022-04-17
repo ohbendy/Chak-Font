@@ -9,7 +9,7 @@ DisplayStrings = (
 /kha-chak/eSign-chak  /kha-chak/yaMedial-chak/eSign-chak 
 /ga-chak/eSign-chak  /ga-chak/yaMedial-chak/eSign-chak 
 /gha-chak/eSign-chak  /gha-chak/yaMedial-chak/eSign-chak",
-"/gha-chak/yaMedial-chak/eSign-chak/iMark-chak/uMark-chak  /gha-chak/iMark-chak/uMark-chak",
+"◌/eSign-chak/aaSign-chak/asat-chak",
 "/ka-chak/iMark-chak/uMark-chak   /uMark-chak/iMark-chak",
 "/ka-chak/yaMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/raMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak  
 /ka-chak/yaMedial-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/raMedial-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak  /ka-chak/yaMedial-chak/raMedial-chak/waMedial-chak/eSign-chak/iMark-chak/uuMark-chak"
@@ -181,6 +181,7 @@ lookupflag IgnoreMarks;
 
 lookup addeVowelBeforeConsonant {
 lookupflag IgnoreMarks;
+	sub dottedCircle' eSign-chak by eSign-chak dottedCircle;
 	sub ka-chak' eSign-chak by eSign-chak ka-chak;
 	sub kha-chak' eSign-chak by eSign-chak kha-chak;
 	sub ga-chak' eSign-chak by eSign-chak ga-chak;
@@ -220,7 +221,7 @@ lookupflag IgnoreMarks;
 
 lookup removeeVowelAfterConsonant {
 lookupflag IgnoreMarks;
-
+	sub eSign-chak dottedCircle' eSign-chak' by dottedCircle;
 	sub eSign-chak ka-chak' eSign-chak' by ka-chak;
 	sub eSign-chak kha-chak' eSign-chak' by kha-chak;
 	sub eSign-chak ga-chak' eSign-chak' by ga-chak;
@@ -320,10 +321,7 @@ notes = "lookup addMedialRa {
 );
 features = (
 {
-code = "#lookup fixCanonicalEquivalence {
-#	sub u-myanmar iiMark-myanmar by uu-myanmar;
-#	} fixCanonicalEquivalence;
-lookupflag IgnoreMarks;
+code = "lookupflag IgnoreMarks;
 lookup addeVowelBeforeMedialYa;
 lookup removeeVowelAfterMedialYa;
 lookupflag IgnoreMarks;
@@ -333,6 +331,7 @@ lookup removeeVowelAfterConsonant;
 lookupflag UseMarkFilteringSet @abovemarks;
 lookup addAboveVowelsAfterPostVowels;
 lookup removeAboveVowelsBeforePostVowels;	
+
 ";
 tag = ccmp;
 },
@@ -341,15 +340,12 @@ code = "lookup alternateAa {
 	lookupflag IgnoreMarks;
 	sub [na-chak ra-chak] aaSign-chak' by aaSign-chak.rclt;
 	} alternateAa;
-";
+
+lookup alternateAsat {
+	lookupflag 0;
+	sub [aaSign-chak aaSign-chak.rclt] asat-chak' by asat-chak.rclt;
+	} alternateAsat;";
 tag = rclt;
-},
-{
-code = "sub aaSign-chak asat-chak' by asat-chak.rclt;
-
-
-";
-tag = abvs;
 },
 {
 code = "# Automatic Code End
@@ -9284,7 +9280,7 @@ unicode = 57396;
 {
 category = Mark;
 glyphname = "asat-chak";
-lastChange = "2022-04-17 16:15:44 +0000";
+lastChange = "2022-04-17 16:22:46 +0000";
 layers = (
 {
 anchors = (
@@ -9310,6 +9306,7 @@ width = 538;
 );
 metricLeft = "=50";
 metricRight = "=50";
+script = chak;
 subCategory = Nonspacing;
 unicode = 57401;
 },
