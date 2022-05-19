@@ -12,8 +12,9 @@ Mong Mong Cak's version of the script is undocumented in English language: in th
 This font is currently encoded using Unicode PUA codepoints E000-E03E. 
 
 ## Character set:
+![Screenshot 2022-05-19 at 09 05 54](https://user-images.githubusercontent.com/12471463/169245777-29d3eadb-a7ec-4a9d-ad37-9695f29948a5.png)
 
-![Screenshot 2022-04-16 at 11 06 32](https://user-images.githubusercontent.com/12471463/163671115-7f124875-6ce4-4f5b-8413-a372aa1871db.png)
 
 ## Text sample:
-![Screenshot 2022-04-16 at 11 06 09](https://user-images.githubusercontent.com/12471463/163671134-745dfe45-84f0-4536-b5d0-4358f031863d.png)
+![Screenshot 2022-05-19 at 09 12 00](https://user-images.githubusercontent.com/12471463/169245808-7d5812b8-858d-45bd-924e-e143b129c0c6.png)
+
