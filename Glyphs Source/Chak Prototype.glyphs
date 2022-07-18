@@ -1,5 +1,5 @@
 {
-.appVersion = "3125";
+.appVersion = "3133";
 .formatVersion = 3;
 DisplayStrings = (
 "/ka-chak/yaMedial-chak/eSign-chak  /ka-chak/eSign-chak",
@@ -21,7 +21,9 @@ DisplayStrings = (
 "/wa-chak/wa-chak/wa-chak/wa-chak/wa-chak/dda-chak/wa-chak/wa-chak/wa-chak/wa-chak/dda-chak/wa-chak/wa-chak/uMark-chak 
 /wa-chak/wa-chak/dda-chak/wa-chak/wa-chak/wa-chak/dda-chak/wa-chak/wa-chak/wa-chak/dda-chak/wa-chak/wa-chak",
 "/aaSign-chak/anusvara-chak  /iMark-chak/anusvara-chak  /iiMark-chak/anusvara-chak  /uMark-chak/anusvara-chak  /uuMark-chak/anusvara-chak  /eSign-chak/aaSign-chak/anusvara-chak  /eSign-chak/aaSign-chak/asat-chak/anusvara-chak  /oeMark-chak/anusvara-chak  /rr-chak/anusvara-chak  /vVocalic-chak/anusvara-chak",
-"/ka-chak/rr-chak/anusvara-chak/anusvara-chak.small"
+"/ka-chak/rr-chak/anusvara-chak/anusvara-chak.small",
+"/ba-chak",
+"/ka-chak/uuMark-chak/dotbelow-chak"
 );
 classes = (
 {
@@ -1492,9 +1494,15 @@ unicode = 57349;
 {
 category = Letter;
 glyphname = "oe-chak";
-lastChange = "2022-05-19 05:13:53 +0000";
+lastChange = "2022-07-18 15:33:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (369,827);
+}
+);
 background = {
 anchors = (
 {
@@ -12741,10 +12749,14 @@ unicode = 57391;
 {
 category = Letter;
 glyphname = "uMark-chak";
-lastChange = "2022-05-19 05:29:57 +0000";
+lastChange = "2022-05-20 10:50:16 +0000";
 layers = (
 {
 anchors = (
+{
+name = bottomright;
+pos = (192,-155);
+},
 {
 name = top;
 pos = (115,600);
@@ -12783,7 +12795,7 @@ unicode = 57392;
 {
 category = Letter;
 glyphname = "uuMark-chak";
-lastChange = "2022-05-19 06:21:45 +0000";
+lastChange = "2022-05-20 15:35:50 +0000";
 layers = (
 {
 anchors = (
@@ -12801,10 +12813,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(75,-155,l),
 (155,-155,l),
 (155,580,l),
-(75,580,l)
+(75,580,l),
+(75,-155,l)
 );
 },
 {
