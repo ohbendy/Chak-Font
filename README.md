@@ -18,4 +18,4 @@ This font is currently encoded using Unicode PUA codepoints E000-E03E.
 ## Text sample:
 ![Screenshot 2022-05-19 at 09 12 00](https://user-images.githubusercontent.com/12471463/169245808-7d5812b8-858d-45bd-924e-e143b129c0c6.png)
 
-See the draft [Unicode proposal](http://fontpad.co.uk/Documents/Chak_proposal.pdf) (updated 17 Jan 2023)
+See the draft [Unicode proposal](http://fontpad.co.uk/Documents/Chak_proposal.pdf) (updated 23 April 2023)
