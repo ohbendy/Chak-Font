@@ -16,7 +16,7 @@ This font is currently encoded using Unicode PUA codepoints E000-E03E.
 
 
 ## Text sample:
-Screenshot 2023-05-08 at 09.05.06.jpg![image](https://user-images.githubusercontent.com/12471463/236770737-9d2f9ea9-ec58-478f-b977-80136cd4b1bd.png)
+![Screenshot 2023-05-08 at 09.05.06.jpg](https://user-images.githubusercontent.com/12471463/236770737-9d2f9ea9-ec58-478f-b977-80136cd4b1bd.png)
 
 
 See the draft [Unicode proposal](http://fontpad.co.uk/Documents/Chak_proposal.pdf) (updated 23 April 2023)
